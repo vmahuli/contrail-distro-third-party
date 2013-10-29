@@ -6,6 +6,7 @@ import os
 import re
 import shutil
 import subprocess
+import sys
 
 _OPT_VERBOSE = None
 _OPT_DRY_RUN = None
@@ -68,8 +69,18 @@ def ProcessPackage(pkg):
     url = str(pkg['url'])
     filename = getFilename(pkg, url)
     ccfile = _PACKAGE_CACHE + '/' + filename
-    if not os.path.isfile(ccfile):
-        subprocess.call(['wget', '--no-check-certificate', '-O', ccfile, url])
+
+    try:
+        if pkg.no_unpack == 'True':
+            print "no_unpack is TRUE ------------------------"
+            if not os.path.isfile(filename):
+                subprocess.call(['wget', '--no-check-certificate', '-O', filename, url])
+	    return
+    except:
+            print "no_unpack is FALSE ------------------------"
+            if not os.path.isfile(ccfile):
+                subprocess.call(['wget', '--no-check-certificate', '-O', ccfile, url])
+            pass
 
     #
     # Determine the name of the directory created by the package.
@@ -83,7 +94,7 @@ def ProcessPackage(pkg):
     else:
         if pkg.format == 'tgz':
             dest = getTarDestination(ccfile, 'z')
-        elif pkg.format == 'tbz':
+        elif  pkg.format == 'tbz':
             dest = getTarDestination(ccfile, 'j')
         elif pkg.format == 'zip':
             dest = getZipDestination(ccfile)
@@ -139,11 +150,15 @@ def main(filename):
             ProcessPackage(object)
 
 if __name__ == '__main__':
-    os.chdir(os.path.dirname(os.path.realpath(__file__)))
-
+    if len(sys.argv) >= 2:
+        filepath = sys.argv[1] + '/packages.xml'
+        os.chdir(sys.argv[1])
+    else:
+        os.chdir(os.path.dirname(os.path.realpath(__file__)))
+        filepath = 'packages.xml'
     try:
         os.makedirs(_PACKAGE_CACHE)
     except OSError as exc:
         pass
 
-    main('packages.xml')
+    main(filepath)
