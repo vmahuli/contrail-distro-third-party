@@ -113,8 +113,8 @@
     <format>tgz</format>
   </package>
   <package>
-    <name>Apache Thrift 0.8</name>
-    <url>http://archive.apache.org/dist/thrift/0.8.0/thrift-0.8.0.tar.gz</url>
+    <name>Python bindings for the Apache Thrift RPC system</name>
+    <url>https://pypi.python.org/packages/source/t/thrift/thrift-0.8.0.tar.gz</url>
     <format>tgz</format>
      <no_unpack>True</no_unpack>
   </package>
