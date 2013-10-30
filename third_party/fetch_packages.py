@@ -72,12 +72,10 @@ def ProcessPackage(pkg):
 
     try:
         if pkg.no_unpack == 'True':
-            print "no_unpack is TRUE ------------------------"
             if not os.path.isfile(filename):
                 subprocess.call(['wget', '--no-check-certificate', '-O', filename, url])
 	    return
     except:
-            print "no_unpack is FALSE ------------------------"
             if not os.path.isfile(ccfile):
                 subprocess.call(['wget', '--no-check-certificate', '-O', ccfile, url])
             pass

@@ -102,6 +102,12 @@
      <no_unpack>True</no_unpack>
   </package>
   <package>
+    <name>Zope Toolkit Interfaces for Python</name>
+    <url>https://pypi.python.org/packages/source/z/zope.interface/zope.interface-3.8.0.tar.gz</url>
+    <format>tgz</format>
+     <no_unpack>True</no_unpack>
+  </package>
+  <package>
     <name>Cassandra</name>
     <url>https://launchpad.net/cassandra/1.1/1.1.7-src/+download/apache-cassandra-1.1.7-src.tar.gz</url>
     <format>tgz</format>
