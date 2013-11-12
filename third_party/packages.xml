@@ -48,11 +48,6 @@
     <format>tgz</format>
   </package>
   <package>
-    <name>A system for controlling process state under UNIX</name>
-    <url>https://pypi.python.org/packages/source/s/supervisor/supervisor-3.0b2.tar.gz</url>
-    <format>tgz</format>
-  </package>
-  <package>
     <name>Python bindings for the Apache Thrift RPC system</name>
     <url>https://pypi.python.org/packages/source/t/thrift/thrift-0.9.1.tar.gz</url>
     <format>tgz</format>
