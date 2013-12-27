@@ -298,4 +298,12 @@
     <url>https://pypi.python.org/packages/source/v/virtualenv/virtualenv-1.9.1.tar.gz</url>
     <format>tgz</format>
   </package>
+  <package>
+    <name>A toolkit to interact with the virtualization capabilities of recent versions of Linux</name>
+    <url>http://libvirt.org/sources/libvirt-0.9.12.tar.gz</url>
+    <format>tgz</format>
+    <patches>
+      <patch strip="1">libvirt_fedora17.diff</patch>
+    </patches>
+  </package>
 </packages>
