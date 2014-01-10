@@ -46,6 +46,9 @@
     <name>Python client for Redis key-value store</name>
     <url>https://pypi.python.org/packages/source/r/redis/redis-2.8.0.tar.gz</url>
     <format>tgz</format>
+    <patches>
+      <patch strip="1">redis-py.diff</patch>
+    </patches>
   </package>
   <package>
     <name>Python bindings for the Apache Thrift RPC system</name>
