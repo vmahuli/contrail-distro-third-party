@@ -12,7 +12,7 @@ from time import sleep
 _RETRIES = 5
 _OPT_VERBOSE = None
 _OPT_DRY_RUN = None
-_PACKAGE_CACHE='/tmp/cache/third_party'
+_PACKAGE_CACHE='/tmp/cache/' + os.environ['USER'] + '/distro_third_party'
 
 from lxml import objectify
 
@@ -85,7 +85,6 @@ def DownloadPackage(url, pkg, md5):
         if md5sum == md5:
             return
         elif retry_count <= _RETRIES:
-            return
             os.remove(pkg)
             retry_count += 1
             sleep(1)
