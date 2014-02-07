@@ -56,7 +56,7 @@
     <format>tgz</format>
     <md5>3a5b1b96d70852a2581a0b28f6122902</md5>
     <patches>
-      <patch strip="1">redis-py.diff</patch>
+      <patch strip="2">redis-py.diff</patch>
     </patches>
   </package>
   <package>
