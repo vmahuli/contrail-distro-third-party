@@ -55,6 +55,9 @@
     <url>https://pypi.python.org/packages/source/r/redis/redis-2.8.0.tar.gz</url>
     <format>tgz</format>
     <md5>3a5b1b96d70852a2581a0b28f6122902</md5>
+    <patches>
+      <patch strip="1">redis-py.diff</patch>
+    </patches>
   </package>
   <package>
     <name>Python bindings for the Apache Thrift RPC system</name>
