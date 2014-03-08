@@ -361,6 +361,34 @@
     <no_unpack>True</no_unpack>
   </package>
   <package>
+    <name>AMQP Client using the rabbitmq-c library</name>
+    <url>https://pypi.python.org/packages/source/l/librabbitmq/librabbitmq-1.0.3.tar.gz</url>
+    <format>tgz</format>
+    <md5>3f30171606ad0786aa9e79d8c007d329</md5>
+     <no_unpack>True</no_unpack>
+  </package>
+  <package>
+    <name>Low-level AMQP client for Python</name>
+    <url>https://pypi.python.org/packages/source/a/amqp/amqp-1.4.1.tar.gz</url>
+    <format>tgz</format>
+    <md5>cc7b9b2a545062087830ca550754d1eb</md5>
+     <no_unpack>True</no_unpack>
+  </package>
+  <package>
+    <name>Wraps the best available JSON implementation available in a common interface</name>
+    <url>https://pypi.python.org/packages/source/a/anyjson/anyjson-0.3.3.tar.gz</url>
+    <format>tgz</format>
+    <md5>2ea28d6ec311aeeebaf993cb3008b27c</md5>
+     <no_unpack>True</no_unpack>
+  </package>
+  <package>
+    <name>Messaging library for Python</name>
+    <url>https://pypi.python.org/packages/source/k/kombu/kombu-3.0.9.tar.gz</url>
+    <format>tgz</format>
+    <md5>653cddb01f435ade241391d637e8407f</md5>
+     <no_unpack>True</no_unpack>
+  </package>
+  <package>
     <name>A toolkit to interact with the virtualization capabilities of recent versions of Linux</name>
     <url>http://libvirt.org/sources/libvirt-0.9.12.tar.gz</url>
     <format>tgz</format>
