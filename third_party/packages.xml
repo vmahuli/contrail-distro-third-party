@@ -403,4 +403,11 @@
     <format>tgz</format>
     <md5>8bf1b7bed06bf5ab636784d161f1a494</md5>
   </package>
+    <package>
+      <name>Fast and simple WSGI-framework for small web-applications</name>
+      <url>https://pypi.python.org/packages/source/b/bottle/bottle-0.11.6.tar.gz</url>
+      <format>tgz</format>
+      <md5>0bafdc4e13ea2b1a3bddf36b5af108c4</md5>
+      <no_unpack>True</no_unpack>
+    </package>
 </packages>
