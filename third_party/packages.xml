@@ -431,4 +431,11 @@
       <md5>5264ceb02717843cbc9ffce8e6e06bdb</md5>
       <no_unpack>True</no_unpack>
   </package>
+  <package>
+      <name>WebOb provides wrappers around the WSGI request and response environment</name>
+      <url>https://pypi.python.org/packages/source/W/WebOb/WebOb-1.2.3.tar.gz</url>
+      <format>tgz</format>
+      <md5>11825b7074ba7043e157805e4e6e0f55</md5>
+      <no_unpack>True</no_unpack>
+  </package>
 </packages>
