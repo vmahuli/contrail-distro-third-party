@@ -438,4 +438,18 @@
       <md5>11825b7074ba7043e157805e4e6e0f55</md5>
       <no_unpack>True</no_unpack>
   </package>
+  <package>
+      <name>testtools is a set of extensions to the Python standard library's unit testing framework</name>
+      <url>https://launchpad.net/testtools/0.9/0.9.21/+download/testtools-0.9.21.tar.gz</url>
+      <format>tgz</format>
+      <md5>64a36b4ad1de2e970e251673aeb8f1a5</md5>
+      <no_unpack>True</no_unpack>
+  </package>
+  <package>
+      <name>Fixtures, reusable state for writing clean tests and more</name>
+      <url>https://pypi.python.org/packages/source/f/fixtures/fixtures-0.3.12.tar.gz</url>
+      <format>tgz</format>
+      <md5>53111c85d15b42a144c690c6ecd29260</md5>
+      <no_unpack>True</no_unpack>
+  </package>
 </packages>
