@@ -99,12 +99,11 @@ def ProcessPackage(pkg):
     filename = getFilename(pkg, url)
     ccfile = _PACKAGE_CACHE + '/' + filename
 
-    try:
-        if pkg.no_unpack == 'True':
-            DownloadPackage(url, filename, pkg.md5)
-	    return
-    except:
-            DownloadPackage(url, ccfile, pkg.md5)
+    DownloadPackage(url, ccfile, pkg.md5)
+
+    if getattr(pkg, 'no_unpack', None) and pkg.no_unpack == 'True':
+        shutil.copy2(ccfile, os.getcwd())
+        return
 
     #
     # Determine the name of the directory created by the package.
