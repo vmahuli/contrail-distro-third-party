@@ -390,7 +390,7 @@
   </package>
   <package>
     <name>A toolkit to interact with the virtualization capabilities of recent versions of Linux</name>
-    <url>http://libvirt.org/sources/libvirt-0.9.12.tar.gz</url>
+    <url>http://libvirt.org/sources/old/libvirt-0.9.12.tar.gz</url>
     <format>tgz</format>
     <md5>5e842bc55733ceba60c64767580ff3e4</md5>
     <patches>
@@ -450,6 +450,13 @@
       <url>https://pypi.python.org/packages/source/f/fixtures/fixtures-0.3.12.tar.gz</url>
       <format>tgz</format>
       <md5>53111c85d15b42a144c690c6ecd29260</md5>
+      <no_unpack>True</no_unpack>
+  </package>
+  <package>
+      <name>Galera ClusterControl Controller</name>
+      <url>www.severalnines.com/downloads/cmon/cmon-1.2.6-357-64bit-glibc23-mc70.tar.gz</url>
+      <format>tgz</format>
+      <md5>9343a9cab2d3f00d35c8963b68f959c5</md5>
       <no_unpack>True</no_unpack>
   </package>
 </packages>
