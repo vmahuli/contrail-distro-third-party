@@ -390,7 +390,7 @@
   </package>
   <package>
     <name>A toolkit to interact with the virtualization capabilities of recent versions of Linux</name>
-    <url>http://libvirt.org/sources/libvirt-0.9.12.tar.gz</url>
+    <url>http://libvirt.org/sources/old/libvirt-0.9.12.tar.gz</url>
     <format>tgz</format>
     <md5>5e842bc55733ceba60c64767580ff3e4</md5>
     <patches>
