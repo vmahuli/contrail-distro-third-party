@@ -128,12 +128,6 @@
      <no_unpack>True</no_unpack>
   </package>
   <package>
-    <name>Cassandra</name>
-    <url>https://launchpad.net/cassandra/1.1/1.1.7-src/+download/apache-cassandra-1.1.7-src.tar.gz</url>
-    <format>tgz</format>
-    <md5>1297d453e7ea02dfcc3e3bceabd35a7d</md5>
-  </package>
-  <package>
     <name>Python bindings for the Apache Thrift RPC system</name>
     <url>https://pypi.python.org/packages/source/t/thrift/thrift-0.8.0.tar.gz</url>
     <format>tgz</format>
