@@ -89,9 +89,22 @@
   </package>
   <package>
     <name>Fabric is a simple, Pythonic tool for remote execution and deployment</name>
+    <url>https://pypi.python.org/packages/source/F/Fabric/Fabric-1.7.5.tar.gz</url>
+    <format>tgz</format>
+    <md5>a53da3adf6fa1cc5c9e6a49916dca5f8</md5>
+  </package>
+  <package>
+    <name>Fabric is a simple, Pythonic tool for remote execution and deployment</name>
     <url>https://pypi.python.org/packages/source/F/Fabric/Fabric-1.7.0.tar.gz</url>
     <format>tgz</format>
     <md5>48e4176f0be925a44ef83ce0efc6d69b</md5>
+     <no_unpack>True</no_unpack>
+  </package>
+  <package>
+    <name>Fabric is a simple, Pythonic tool for remote execution and deployment</name>
+    <url>https://pypi.python.org/packages/source/F/Fabric/Fabric-1.7.5.tar.gz</url>
+    <format>tgz</format>
+    <md5>a53da3adf6fa1cc5c9e6a49916dca5f8</md5>
      <no_unpack>True</no_unpack>
   </package>
   <package>
