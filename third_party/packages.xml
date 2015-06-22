@@ -451,7 +451,7 @@
   </package>
   <package>
       <name>Galera ClusterControl Controller</name>
-      <url>https://github.com/Juniper/contrail-third-party-cache/raw/master/distro/cmon-1.2.6-357-64bit-glibc23-mc70.tar.gz</url>
+      <url>www.severalnines.com/downloads/cmon/cmon-1.2.6-357-64bit-glibc23-mc70.tar.gz</url>
       <format>tgz</format>
       <md5>9343a9cab2d3f00d35c8963b68f959c5</md5>
       <no_unpack>True</no_unpack>
